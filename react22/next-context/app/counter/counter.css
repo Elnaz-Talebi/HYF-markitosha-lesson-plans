@@ -1,0 +1,46 @@
+.counter-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.counter-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.counter-display {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.counter-buttons {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.counter-button {
+  padding: 15px 30px;
+  font-size: 24px;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  min-width: 60px;
+}
+
+.counter-button.decrement {
+  background-color: #ff4444;
+  color: white;
+}
+
+.counter-button.increment {
+  background-color: #44ff44;
+  color: white;
+}
+
+.counter-button:hover {
+  opacity: 0.8;
+}
